@@ -1,0 +1,53 @@
+# Secrets
+.env
+**/.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Database backups
+backups/
+*.sql
+
+# JavaScript dependencies
+node_modules/
+
+# Build outputs
+dist/
+.expo/
+
+# Uploaded product images
+backend/uploads/
+
+# Local Git history backup
+mobile/.git-backup-local/
+mobile-git-backup.bundle
+
+# APK files
+*.apk
+
+# Nested Git metadata
+mobile/.git/
+
+# Mobile app dependencies and generated files
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/Expo-Go-58.0.4.apk
+
+# Mobile app dependencies and generated files
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/Expo-Go-58.0.4.apk
+
+# Signing keys
+*.keystore
+*.jks
+*.p12
+*.pfx
